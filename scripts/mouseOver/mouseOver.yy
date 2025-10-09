@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Waves",
+  "%Name":"mouseOver",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Waves",
+  "name":"mouseOver",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

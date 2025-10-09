@@ -10,6 +10,7 @@ if(en !=noone){
 			shooting = true;
 		}
 		objectToShoot = en;
+		if(mouseOver(x,y,sprite_width,sprite_height)) 
 		draw_line(x,y,en.x,en.y);
 	}else {
 		shooting = false

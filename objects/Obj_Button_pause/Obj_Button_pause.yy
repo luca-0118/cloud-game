@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_Button_pause",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_Button_pause",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Menu",
     "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Button_parent",
+    "path":"objects/Obj_Button_parent/Obj_Button_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sButton_Pause",
+    "path":"sprites/sButton_Pause/sButton_Pause.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -9,7 +9,10 @@
     "name":"Menu",
     "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Button_text_parent",
+    "path":"objects/Obj_Button_text_parent/Obj_Button_text_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,1 +1,0 @@
-HP = global.hp;

@@ -8,5 +8,5 @@ global.playerhp = 100;
 global.hp = 100; //dit moeten we later wel per enemy doen en niet hier als een global var. misschien met classes als dat hier kan.
 global.spd = 1;
 global.level = 1;
-
+global.rounds = 0;
 global.coins = 75

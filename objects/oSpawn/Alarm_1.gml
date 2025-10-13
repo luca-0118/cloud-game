@@ -7,7 +7,6 @@ if(instance_number(oEnemy) <= 0){
 	global.spd += 0.1;
 	spawn_rate -= 2.5;
 	alarm[0] = spawn_rate;
-
+	global.rounds += 1;
 }
-
 alarm[1] = room_speed * 5;

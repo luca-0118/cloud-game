@@ -10,8 +10,8 @@ if (collision_point(_mouse_gui_x, _mouse_gui_y, object_index, false, false) == i
 	
 	if mouse_check_button_pressed(mb_left)
 	{
-		image_xscale = 0.9;
-		image_yscale = 0.9;
+		image_xscale = 1;
+		image_yscale = 1;
 	}
 	
 	if mouse_check_button_released(mb_left)

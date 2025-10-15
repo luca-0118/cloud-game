@@ -1,4 +1,4 @@
-/// @description Button Text Parent
+/// @description Tower1 Explanation Button
 
 text = "Button";
 

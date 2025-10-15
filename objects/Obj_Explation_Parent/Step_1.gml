@@ -1,4 +1,4 @@
-/// @description Button Parent
+/// @description Explanation Towers Parent
 
 var _mouse_gui_x = device_mouse_x_to_gui(0);
 
@@ -12,6 +12,8 @@ if (collision_point(_mouse_gui_x, _mouse_gui_y, object_index, false, false) == i
 	{
 		image_xscale = 1;
 		image_yscale = 1;
+		is_playing = true;
+		anim_frame = 0;
 	}
 	
 	if mouse_check_button_released(mb_left)
@@ -34,11 +36,6 @@ else
 }
 
 	
-if (mouse_check_button_pressed(mb_left))
-{
-	is_playing = true;
-	anim_frame = 0;
-}
 
 if (is_playing)
 {

@@ -7,3 +7,5 @@ if (is_playing) {
 else {
     draw_sprite(sIdle1, 0, x, y);
 }
+
+draw_self();

@@ -1,4 +1,4 @@
-/// @description Tower1 Explanation Button
+/// @description Explanation Towers Parent
 
 draw_self();
 

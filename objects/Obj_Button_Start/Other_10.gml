@@ -1,4 +1,4 @@
 /// @description Start Button
 
-room_goto(level1);
+room_goto(Level_screen);
 

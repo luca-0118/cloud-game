@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Button_pause",
+  "%Name":"Obj_pause_menu",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Button_pause",
+  "name":"Obj_pause_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu buttons",
-    "path":"folders/Objects/Menu/Menu buttons.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_Button_parent",
-    "path":"objects/Obj_Button_parent/Obj_Button_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sButton_Pause",
-    "path":"sprites/sButton_Pause/sButton_Pause.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

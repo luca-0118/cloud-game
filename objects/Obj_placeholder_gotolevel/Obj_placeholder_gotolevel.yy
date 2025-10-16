@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Schermafbeelding_2025_10_15_163440",
-    "path":"sprites/Schermafbeelding_2025_10_15_163440/Schermafbeelding_2025_10_15_163440.yy",
+    "name":"Map1",
+    "path":"sprites/Map1/Map1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

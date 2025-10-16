@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButton_Red",
-    "path":"sprites/sButton_Red/sButton_Red.yy",
+    "name":"sButton_Blue",
+    "path":"sprites/sButton_Blue/sButton_Blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

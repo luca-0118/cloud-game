@@ -1,6 +1,6 @@
 /// @description Gameplay Manager
 
-paused = false;
+global.paused = false;
 
 pause_sequence = -1;
 

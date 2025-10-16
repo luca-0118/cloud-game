@@ -10,3 +10,4 @@ global.spd = 1;
 global.level = 1;
 global.rounds = 0;
 global.coins = 75
+global.paused = false;

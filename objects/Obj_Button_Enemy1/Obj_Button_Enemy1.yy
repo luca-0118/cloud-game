@@ -13,8 +13,8 @@
     "path":"folders/Objects/Menu/Enemy buttons.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Explation_Parent",
-    "path":"objects/Obj_Explation_Parent/Obj_Explation_Parent.yy",
+    "name":"Obj_Explanation_Parent",
+    "path":"objects/Obj_Explanation_Parent/Obj_Explanation_Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

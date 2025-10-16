@@ -1,19 +1,20 @@
 function Trivia()
 {
-	if (global.level == 25)
-    {
         // Pause all instances
         instance_deactivate_all(true);
 
-        // Show pause menu
+        // Show trivia pop up
         if (object_exists(Obj_trivia_menu))
             instance_create_layer(0, 0, "Trivia", Obj_trivia_menu);
-			with (Obj_trivia_pause) instance_destroy();
 
         global.paused = true;
-    }
-    else
+   
+	/*if (antwoord is gekozen)
     {
+		Check for correctness
+		
+		if (last question)
+		{
         // Unpause all instances
         instance_activate_all();
 
@@ -23,5 +24,6 @@ function Trivia()
 		with (Obj_Button_incorrect) instance_destroy();
 
         global.paused = false;
-    }
+		}
+    }*/
 }

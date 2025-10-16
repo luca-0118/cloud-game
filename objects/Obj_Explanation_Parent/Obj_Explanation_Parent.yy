@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Explation_Parent",
+  "%Name":"Obj_Explanation_Parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Explation_Parent",
+  "name":"Obj_Explanation_Parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",

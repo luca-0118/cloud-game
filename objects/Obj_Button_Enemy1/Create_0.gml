@@ -1,4 +1,4 @@
-/// @description Eenym1 Explanation Button
+/// @description Enemy1 Explanation Button
 
 text = "Button";
 

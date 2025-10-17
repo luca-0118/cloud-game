@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Button_incorrect",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Button_gotit",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_Button_incorrect",
+  "name":"Obj_Button_gotit",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu buttons",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButton_Red",
-    "path":"sprites/sButton_Red/sButton_Red.yy",
+    "name":"sButton_Blue",
+    "path":"sprites/sButton_Blue/sButton_Blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,24 @@
+{
+  "FolderOrderSettings":[
+    {"name":"level 1","order":5,"path":"folders/Objects/level 1.yy",},
+    {"name":"Tower lvl1","order":2,"path":"folders/Objects/level 1/Tower lvl1.yy",},
+    {"name":"Tower click","order":2,"path":"folders/Objects/level 1/Tower lvl1/Tower click.yy",},
+    {"name":"Tower drag","order":1,"path":"folders/Objects/level 1/Tower lvl1/Tower drag.yy",},
+    {"name":"level 2","order":6,"path":"folders/Objects/level 2.yy",},
+    {"name":"tower click","order":1,"path":"folders/Objects/level 2/tower lvl2/tower click.yy",},
+    {"name":"tower drag","order":2,"path":"folders/Objects/level 2/tower lvl2/tower drag.yy",},
+    {"name":"tower","order":3,"path":"folders/Objects/level 2/tower lvl2/tower.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oBullet","order":1,"path":"objects/oBullet/oBullet.yy",},
+    {"name":"oEnemy_lvl2","order":1,"path":"objects/oEnemy_lvl2/oEnemy_lvl2.yy",},
+    {"name":"oSpawn_2","order":2,"path":"objects/oSpawn_2/oSpawn_2.yy",},
+    {"name":"oSpawn","order":3,"path":"objects/oSpawn/oSpawn.yy",},
+    {"name":"oTower1_1","order":2,"path":"objects/oTower1_1/oTower1_1.yy",},
+    {"name":"oTower2_1","order":1,"path":"objects/oTower2_1/oTower2_1.yy",},
+    {"name":"oTower2C_1","order":1,"path":"objects/oTower2C_1/oTower2C_1.yy",},
+    {"name":"oTower2D_1","order":1,"path":"objects/oTower2D_1/oTower2D_1.yy",},
+    {"name":"plevel2","order":1,"path":"paths/plevel2/plevel2.yy",},
+    {"name":"level2","order":1,"path":"rooms/level2/level2.yy",},
+  ],
+}

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oBullet",
+  "%Name":"oTower3_1",
   "eventList":[],
   "managed":true,
-  "name":"oBullet",
+  "name":"oTower3_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"level 1",
-    "path":"folders/Objects/level 1.yy",
+    "name":"tower",
+    "path":"folders/Objects/level 2/tower lvl2/tower.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBullet",
-    "path":"sprites/sBullet/sBullet.yy",
+    "name":"sTower3",
+    "path":"sprites/sTower3/sTower3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

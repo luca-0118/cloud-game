@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemy",
+  "%Name":"oEnemy_lvl2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,11 +8,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEnemy",
+  "name":"oEnemy_lvl2",
   "overriddenProperties":[],
   "parent":{
-    "name":"level 1",
-    "path":"folders/Objects/level 1.yy",
+    "name":"level 2",
+    "path":"folders/Objects/level 2.yy",
   },
   "parentObjectId":null,
   "persistent":false,

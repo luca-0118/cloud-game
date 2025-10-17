@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Towers",
-    "path":"folders/Objects/Towers.yy",
+    "path":"folders/Objects/level 1/Tower lvl1/Towers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

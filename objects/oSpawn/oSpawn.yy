@@ -11,8 +11,8 @@
   "name":"oSpawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"level 1",
+    "path":"folders/Objects/level 1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

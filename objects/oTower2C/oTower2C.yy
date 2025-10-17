@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Tower click",
-    "path":"folders/Objects/Tower click.yy",
+    "path":"folders/Objects/level 1/Tower lvl1/Tower click.yy",
   },
   "parentObjectId":null,
   "persistent":false,

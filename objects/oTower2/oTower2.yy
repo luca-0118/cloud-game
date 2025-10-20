@@ -13,7 +13,10 @@
     "name":"Towers",
     "path":"folders/Objects/level 1/Tower lvl1/Towers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oTowerparent",
+    "path":"objects/oTowerparent/oTowerparent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

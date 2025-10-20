@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"oTower3_1",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oTower3_1",
   "overriddenProperties":[],
@@ -9,7 +13,10 @@
     "name":"tower",
     "path":"folders/Objects/level 2/tower lvl2/tower.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oTowerparent",
+    "path":"objects/oTowerparent/oTowerparent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

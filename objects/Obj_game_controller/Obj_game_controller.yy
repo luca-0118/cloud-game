@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Button_correct",
+  "%Name":"Obj_game_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Button_correct",
+  "name":"Obj_game_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu buttons",
-    "path":"folders/Objects/Menu/Menu buttons.yy",
+    "name":"Managers",
+    "path":"folders/Objects/Managers.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_Button_text_parent",
-    "path":"objects/Obj_Button_text_parent/Obj_Button_text_parent.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -33,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sButton_Green",
-    "path":"sprites/sButton_Green/sButton_Green.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

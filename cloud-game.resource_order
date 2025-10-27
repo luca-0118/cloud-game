@@ -28,6 +28,8 @@
     {"name":"UI","order":10,"path":"folders/Sprites/UI.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Obj_button_answer","order":1,"path":"objects/Obj_button_answer/Obj_button_answer.yy",},
+    {"name":"Obj_game_controller","order":1,"path":"objects/Obj_game_controller/Obj_game_controller.yy",},
     {"name":"oBullet","order":1,"path":"objects/oBullet/oBullet.yy",},
     {"name":"oDifficultyGlobal","order":10,"path":"objects/oDifficultyGlobal/oDifficultyGlobal.yy",},
     {"name":"oEnemy_lvl2","order":1,"path":"objects/oEnemy_lvl2/oEnemy_lvl2.yy",},

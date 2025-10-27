@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wring_popup",
+  "%Name":"Obj_wrong_popup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_wring_popup",
+  "name":"Obj_wrong_popup",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",

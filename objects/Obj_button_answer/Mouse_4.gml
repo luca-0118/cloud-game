@@ -6,7 +6,7 @@ if (answer_index = correct_index)
 	with (Obj_trivia_menu) instance_destroy();
     with (Obj_button_answer) instance_destroy();
 	
-	instance_create_layer(display_get_gui_width()/2, display_get_gui_height()/2, "Trivia",Obj_right_popup);
+	instance_create_layer(display_get_gui_width()/2, display_get_gui_height()/2, "Trivia" ,Obj_right_popup);
 } 
 
 else

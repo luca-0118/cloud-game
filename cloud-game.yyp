@@ -93,6 +93,7 @@
     {"id":{"name":"Obj_game_controller","path":"objects/Obj_game_controller/Obj_game_controller.yy",},},
     {"id":{"name":"obj_gameplay_manager","path":"objects/obj_gameplay_manager/obj_gameplay_manager.yy",},},
     {"id":{"name":"Obj_pause_menu","path":"objects/Obj_pause_menu/Obj_pause_menu.yy",},},
+    {"id":{"name":"Obj_right_popup","path":"objects/Obj_right_popup/Obj_right_popup.yy",},},
     {"id":{"name":"Obj_trivia_menu","path":"objects/Obj_trivia_menu/Obj_trivia_menu.yy",},},
     {"id":{"name":"Obj_Wave_start","path":"objects/Obj_Wave_start/Obj_Wave_start.yy",},},
     {"id":{"name":"Obj_wrong_popup","path":"objects/Obj_wrong_popup/Obj_wrong_popup.yy",},},

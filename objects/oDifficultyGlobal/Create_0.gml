@@ -1,0 +1,1 @@
+global.selected_difficulty = 1;

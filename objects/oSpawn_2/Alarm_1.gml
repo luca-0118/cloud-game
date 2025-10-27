@@ -9,7 +9,7 @@ if(instance_number(oEnemy_lvl2) <= 0)
 	spawn_count = 0;
 	spawn_amount++;
 	global.level++;
-	global.hp +=10;
+	global.hp +=10; //idk als dit enemy hp hoort te zijn of player hp. dus het crashed nu.
 	global.spd += 0.1;
 	spawn_rate -= 2.5;
 	alarm[0] = spawn_rate;

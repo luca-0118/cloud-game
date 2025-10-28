@@ -6,5 +6,5 @@ text_outline_color = #000000;
 text_color = #FFFFFF;
 
 // Stel breedte en hoogte in
-btn_width = 300;
+btn_width = 600;
 btn_height = 60;

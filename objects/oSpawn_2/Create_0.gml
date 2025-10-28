@@ -21,11 +21,11 @@ if (global.selected_difficulty == 0) {
     global.spd = 1;
     global.enemyhp = 1;
 }
-else if (global.selected_difficulty == 1) {
+if (global.selected_difficulty == 1) {
     global.spd = 1.5;
     global.enemyhp = 1.5;
 }
-else if (global.selected_difficulty == 2) {
+if (global.selected_difficulty == 2) {
     global.spd = 2;
     global.enemyhp = 2;
 }

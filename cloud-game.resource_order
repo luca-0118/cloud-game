@@ -70,5 +70,6 @@
     {"name":"sEnemy111_2test","order":1,"path":"sprites/sEnemy111_2test/sEnemy111_2test.yy",},
     {"name":"sHard","order":2,"path":"sprites/sHard/sHard.yy",},
     {"name":"sMedium","order":1,"path":"sprites/sMedium/sMedium.yy",},
+    {"name":"Sprite31","order":11,"path":"sprites/Sprite31/Sprite31.yy",},
   ],
 }

@@ -10,7 +10,7 @@ global.rounds = 0;
 global.coins = 75;
 global.paused = false;
 
-global.selected_difficulty = 1;
+
 //luca Ik heb je hp systeem beetje veranderd, hier is de base value en dat wordt keer de base hp gedaan.
 //Dit is zodat de hp multiplier meteen ook op andere enemies komt.
 //(deze comment is nu op elke level zodat je het ziet lol)

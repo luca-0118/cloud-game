@@ -1,0 +1,4 @@
+text_outline_color = #000000;
+text_color = #03fc3d;
+
+instance_create_layer(display_get_width()/2, display_get_height()/2+300, "Trivia", Obj_Button_next_level)

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButton_Blue",
-    "path":"sprites/sButton_Blue/sButton_Blue.yy",
+    "name":"sButton_Blue2",
+    "path":"sprites/sButton_Blue2/sButton_Blue2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

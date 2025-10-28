@@ -1,3 +1,3 @@
 path_start(Path_level_1,global.spd,0,1);
-hp = 100 * global.enemyhp;
+hp = 50 * global.enemyhp;
 dmg = 1;

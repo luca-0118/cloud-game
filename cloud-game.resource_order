@@ -39,6 +39,7 @@
     {"name":"oEnemy_lvl3","order":3,"path":"objects/oEnemy_lvl3/oEnemy_lvl3.yy",},
     {"name":"oEnemy2test","order":4,"path":"objects/oEnemy2test/oEnemy2test.yy",},
     {"name":"oHard","order":2,"path":"objects/oHard/oHard.yy",},
+    {"name":"oLevel2","order":2,"path":"objects/oLevel2/oLevel2.yy",},
     {"name":"oMedium","order":1,"path":"objects/oMedium/oMedium.yy",},
     {"name":"oPathTurn","order":1,"path":"objects/oPathTurn/oPathTurn.yy",},
     {"name":"oReg","order":8,"path":"objects/oReg/oReg.yy",},
@@ -71,5 +72,6 @@
     {"name":"sEnemy111_2test","order":1,"path":"sprites/sEnemy111_2test/sEnemy111_2test.yy",},
     {"name":"sHard","order":2,"path":"sprites/sHard/sHard.yy",},
     {"name":"sMedium","order":1,"path":"sprites/sMedium/sMedium.yy",},
+    {"name":"Sprite31","order":11,"path":"sprites/Sprite31/Sprite31.yy",},
   ],
 }

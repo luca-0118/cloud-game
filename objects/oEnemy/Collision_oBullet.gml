@@ -1,5 +1,8 @@
 hp -= 20;
-scr_debug_message("shot enemy hp = " + string(hp));
+
+if (global.debugmode == true) {
+	scr_debug_message("shot enemy hp = " + string(hp));
+}
 
 if hp <= 0 {
 	global.coins += 20;

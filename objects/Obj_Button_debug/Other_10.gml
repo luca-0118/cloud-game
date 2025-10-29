@@ -1,0 +1,2 @@
+
+global.debugmode = !global.debugmode;

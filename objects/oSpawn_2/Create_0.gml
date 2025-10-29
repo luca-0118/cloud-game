@@ -1,18 +1,5 @@
-spawn_amount = 5;
-spawn_count = 0;
-spawn_rate = 1 * room_speed;
-alarm[0] = 1;
-alarm[1] = room_speed * 5;
-
-global.current_path = Path_level_3  //bruh
-
-
-
-//luca Ik heb je hp systeem beetje veranderd, hier is de base value en dat wordt keer de base hp gedaan.
-//Dit is zodat de hp multiplier meteen ook op andere enemies komt.
-//(deze comment is nu op elke level zodat je het ziet lol)
-
-// oh en als dit te moeilijk is ofzo kan je het ook hier makkelijk de getallen aanpassen.
+global.current_path = Path_level_2 //bruh
+global.gamespeed = 1;
 
 if (global.selected_difficulty == 0) {
     global.spd = 1;
@@ -34,12 +21,19 @@ if (global.selected_difficulty == 2) {
 }
 
 global.level = 1;
-global.rounds = 0;
+global.rounds = 1;
 global.coins = startcoins;
 global.paused = false;
+
+spawn_amount = 5;
+spawn_count = 0;
+spawn_rate = room_speed;
+spawn_timer = spawn_rate;
+alarm[1] = room_speed * 5;
 
 if (global.debugmode == true) {
 scr_debug_message("difficulty = " + string(global.selected_difficulty));
 scr_debug_message("enemy speed = " + string(global.spd));
 scr_debug_message("enemy hp mult = " + string(global.enemyhp));
+scr_debug_message("gamespeed = " + string(global.gamespeed));
 }

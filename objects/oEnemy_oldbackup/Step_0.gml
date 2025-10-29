@@ -7,8 +7,3 @@ if (path_position >= 1) {
 	global.playerhp -= dmg;
 	instance_destroy();
 }
-
-if (hp <= 0) {
-    global.coins += 20;
-    instance_destroy();
-}

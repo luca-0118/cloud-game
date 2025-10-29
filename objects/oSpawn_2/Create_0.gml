@@ -4,6 +4,10 @@ spawn_rate = 1 * room_speed;
 alarm[0] = 1;
 alarm[1] = room_speed * 5;
 
+global.current_path = Path_level_2  //bruh
+
+
+
 //luca Ik heb je hp systeem beetje veranderd, hier is de base value en dat wordt keer de base hp gedaan.
 //Dit is zodat de hp multiplier meteen ook op andere enemies komt.
 //(deze comment is nu op elke level zodat je het ziet lol)

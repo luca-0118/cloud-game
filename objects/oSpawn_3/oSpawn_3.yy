@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"level 3",
-    "path":"folders/Objects/level 3.yy",
+    "path":"folders/Objects/TD_Game/level 3.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,8 +11,8 @@
   "name":"oEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"level 1",
-    "path":"folders/Objects/level 1.yy",
+    "name":"TD_Game",
+    "path":"folders/Objects/TD_Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

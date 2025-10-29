@@ -1,4 +1,4 @@
-if(instance_number(oEnemy_lvl2) <= 0)
+if(instance_number(oEnemy) <= 0)
 {
 	if (rounds = 1)
 	{

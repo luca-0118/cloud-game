@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Tower drag",
-    "path":"folders/Objects/level 1/Tower lvl1/Tower drag.yy",
+    "path":"folders/Objects/TD_Game/Tower drag.yy",
   },
   "parentObjectId":null,
   "persistent":false,

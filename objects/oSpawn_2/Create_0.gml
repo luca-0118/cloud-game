@@ -38,6 +38,8 @@ global.rounds = 0;
 global.coins = startcoins;
 global.paused = false;
 
+if (global.debugmode == true) {
 scr_debug_message("difficulty = " + string(global.selected_difficulty));
 scr_debug_message("enemy speed = " + string(global.spd));
 scr_debug_message("enemy hp mult = " + string(global.enemyhp));
+}

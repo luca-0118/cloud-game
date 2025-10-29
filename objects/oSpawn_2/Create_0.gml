@@ -4,7 +4,7 @@ spawn_rate = 1 * room_speed;
 alarm[0] = 1;
 alarm[1] = room_speed * 5;
 
-global.current_path = Path_level_2  //bruh
+global.current_path = Path_level_3  //bruh
 
 
 

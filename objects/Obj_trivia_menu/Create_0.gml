@@ -9,7 +9,8 @@ var center_x = screen_w / 2;
 var center_y = screen_h / 2;
 
 // Kies een willekeurige vraag
-var index = 1;
+var lengte = array_length(global.trivia_questions);
+var index = irandom(lengte - 1);
 var q = global.trivia_questions[index];
 
 question_text = q[0];

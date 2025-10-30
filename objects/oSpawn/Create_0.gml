@@ -37,3 +37,7 @@ scr_debug_message("enemy speed = " + string(global.spd));
 scr_debug_message("enemy hp mult = " + string(global.enemyhp));
 scr_debug_message("gamespeed = " + string(global.gamespeed));
 }
+
+round_check = [3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48];
+i = 0;
+

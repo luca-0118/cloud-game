@@ -1,8 +1,9 @@
 if(instance_number(oEnemy) <= 0)
 {
-	if (rounds = 1)
+	if (rounds = round_check[i])
 	{
 		Trivia();
+		i++;
 	}
 	else
 	{

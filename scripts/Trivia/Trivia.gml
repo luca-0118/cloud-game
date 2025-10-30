@@ -17,5 +17,9 @@ function Trivia()
 function Trivia_Unpause() {
     instance_activate_all();
     with (Obj_trivia_menu) instance_destroy();
+	with (Obj_right_popup) instance_destroy();
+	with (Obj_wrong_popup) instance_destroy();
+	with (Obj_button_answer) instance_destroy();
+	with (Obj_Button_next_level) instance_destroy();
     global.paused = false;
 	}

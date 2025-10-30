@@ -23,7 +23,7 @@ var start_y = center_y + 50;
 // Maak knoppen aan
 for (var i = 0; i < array_length(answers); i++) {
     var btn_y = start_y + i * 140; // ruimte tussen knoppen
-    var btn = instance_create_layer(center_x, btn_y, "Trivia", Obj_button_answer);
+    var btn = instance_create_layer(center_x, btn_y, "GUI", Obj_button_answer);
     btn.answer_text = answers[i];
     btn.answer_index = i;
     btn.correct_index = correct_answer;

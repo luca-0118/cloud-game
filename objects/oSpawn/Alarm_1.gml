@@ -1,5 +1,9 @@
 if(instance_number(oEnemy) <= 0)
 {
+	if (rounds = 50)
+	{
+	Level_clear();
+	}
 	if (rounds = round_check[i])
 	{
 		Trivia();

@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"cloud-game",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -60,7 +60,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"cloud-game",
   "resources":[
@@ -71,6 +71,7 @@
     {"id":{"name":"Obj_Button_gotit","path":"objects/Obj_Button_gotit/Obj_Button_gotit.yy",},},
     {"id":{"name":"Obj_Button_menu","path":"objects/Obj_Button_menu/Obj_Button_menu.yy",},},
     {"id":{"name":"Obj_Button_next_level","path":"objects/Obj_Button_next_level/Obj_Button_next_level.yy",},},
+    {"id":{"name":"Obj_Button_next_wave","path":"objects/Obj_Button_next_wave/Obj_Button_next_wave.yy",},},
     {"id":{"name":"Obj_Button_parent","path":"objects/Obj_Button_parent/Obj_Button_parent.yy",},},
     {"id":{"name":"Obj_Button_pause","path":"objects/Obj_Button_pause/Obj_Button_pause.yy",},},
     {"id":{"name":"Obj_Button_quit_game","path":"objects/Obj_Button_quit_game/Obj_Button_quit_game.yy",},},
@@ -87,6 +88,7 @@
     {"id":{"name":"Obj_Explanation_Parent","path":"objects/Obj_Explanation_Parent/Obj_Explanation_Parent.yy",},},
     {"id":{"name":"Obj_game_controller","path":"objects/Obj_game_controller/Obj_game_controller.yy",},},
     {"id":{"name":"obj_gameplay_manager","path":"objects/obj_gameplay_manager/obj_gameplay_manager.yy",},},
+    {"id":{"name":"Obj_level_clear","path":"objects/Obj_level_clear/Obj_level_clear.yy",},},
     {"id":{"name":"Obj_pause_menu","path":"objects/Obj_pause_menu/Obj_pause_menu.yy",},},
     {"id":{"name":"Obj_right_popup","path":"objects/Obj_right_popup/Obj_right_popup.yy",},},
     {"id":{"name":"Obj_trivia_menu","path":"objects/Obj_trivia_menu/Obj_trivia_menu.yy",},},
@@ -116,7 +118,6 @@
     {"id":{"name":"oTower1","path":"objects/oTower1/oTower1.yy",},},
     {"id":{"name":"oTower1C","path":"objects/oTower1C/oTower1C.yy",},},
     {"id":{"name":"oTower1D","path":"objects/oTower1D/oTower1D.yy",},},
-    {"id":{"name":"oTower2_oldbackup","path":"objects/oTower2_oldbackup/oTower2_oldbackup.yy",},},
     {"id":{"name":"oTower2","path":"objects/oTower2/oTower2.yy",},},
     {"id":{"name":"oTower2C","path":"objects/oTower2C/oTower2C.yy",},},
     {"id":{"name":"oTower2D","path":"objects/oTower2D/oTower2D.yy",},},
@@ -134,6 +135,7 @@
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"Uitleg_room","path":"rooms/Uitleg_room/Uitleg_room.yy",},},
     {"id":{"name":"Debugtext","path":"scripts/Debugtext/Debugtext.yy",},},
+    {"id":{"name":"Level_clear","path":"scripts/Level_clear/Level_clear.yy",},},
     {"id":{"name":"mouseOver","path":"scripts/mouseOver/mouseOver.yy",},},
     {"id":{"name":"Pause","path":"scripts/Pause/Pause.yy",},},
     {"id":{"name":"Text","path":"scripts/Text/Text.yy",},},

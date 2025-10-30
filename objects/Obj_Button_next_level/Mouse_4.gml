@@ -1,2 +1,2 @@
-Trivia_Unpause();
+room_goto(level2);
 

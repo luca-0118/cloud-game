@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oEasy",
+  "%Name":"oMedium_trivia",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEasy",
+  "name":"oMedium_trivia",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Archive/Buttons.yy",
+    "name":"Difficulty",
+    "path":"folders/Objects/Menu/Level_select/Difficulty.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEasy",
-    "path":"sprites/sEasy/sEasy.yy",
+    "name":"sMedium",
+    "path":"sprites/sMedium/sMedium.yy",
   },
   "spriteMaskId":null,
   "visible":true,

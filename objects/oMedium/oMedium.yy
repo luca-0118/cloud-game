@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
-    "path":"folders/Objects/Menu/Level_select/Buttons.yy",
+    "path":"folders/Objects/Archive/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

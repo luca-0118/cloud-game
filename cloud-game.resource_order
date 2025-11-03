@@ -55,6 +55,7 @@
     {"name":"oMedium_trivia","order":2,"path":"objects/oMedium_trivia/oMedium_trivia.yy",},
     {"name":"oMedium","order":1,"path":"objects/oMedium/oMedium.yy",},
     {"name":"oPathTurn","order":1,"path":"objects/oPathTurn/oPathTurn.yy",},
+    {"name":"oReg_1","order":15,"path":"objects/oReg_1/oReg_1.yy",},
     {"name":"oReg","order":8,"path":"objects/oReg/oReg.yy",},
     {"name":"oRound","order":2,"path":"objects/oRound/oRound.yy",},
     {"name":"oSpawn_2","order":2,"path":"objects/oSpawn_2/oSpawn_2.yy",},
@@ -83,5 +84,6 @@
     {"name":"sMedium","order":1,"path":"sprites/sMedium/sMedium.yy",},
     {"name":"Sprite31","order":11,"path":"sprites/Sprite31/Sprite31.yy",},
     {"name":"Sprite37","order":12,"path":"sprites/Sprite37/Sprite37.yy",},
+    {"name":"sReg_1","order":1,"path":"sprites/sReg_1/sReg_1.yy",},
   ],
 }

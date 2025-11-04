@@ -11,5 +11,6 @@ if (spawn_timer <= 0 && spawn_count < spawn_amount) {
 if (global.level = 0)
 {
 	Trivia();
+	instance_deactivate_object(oSpawn);
 	global.level++;
 }

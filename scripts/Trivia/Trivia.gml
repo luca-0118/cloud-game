@@ -1,9 +1,11 @@
 function Trivia()
 {
+	if (global.is_in_MP) { return } else {
 		if (!global.paused)
 		{
 			// Pause all instances
 			instance_deactivate_all(true);
+			instance_deactivate_object(oSpawn)
 
 			// Show trivia pop up
 			if (object_exists(Obj_trivia_menu))
@@ -12,6 +14,7 @@ function Trivia()
 			}
 			global.paused = true;
 		}
+	}
 }
 
 function Trivia_Unpause() {

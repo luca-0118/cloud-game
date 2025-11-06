@@ -22,7 +22,7 @@ if (global.TD_difficulty == 0) {
 //	startcoins = 75;
 //}
 
-global.level = 1;
+global.level = 0;
 global.rounds = 1;
 global.coins = startcoins;
 global.paused = false;
@@ -40,3 +40,6 @@ scr_debug_message("enemy speed = " + string(global.spd));
 scr_debug_message("enemy hp mult = " + string(global.enemyhp));
 scr_debug_message("gamespeed = " + string(global.gamespeed));
 }
+
+round_check = [3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,100];
+i = 0;

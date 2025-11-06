@@ -148,6 +148,7 @@
     {"id":{"name":"Pause","path":"scripts/Pause/Pause.yy",},},
     {"id":{"name":"Text","path":"scripts/Text/Text.yy",},},
     {"id":{"name":"Trivia","path":"scripts/Trivia/Trivia.yy",},},
+    {"id":{"name":"Trivia2","path":"scripts/Trivia2/Trivia2.yy",},},
     {"id":{"name":"Snd_Halflifescream","path":"sounds/Snd_Halflifescream/Snd_Halflifescream.yy",},},
     {"id":{"name":"Map1","path":"sprites/Map1/Map1.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},

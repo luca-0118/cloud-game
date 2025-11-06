@@ -21,7 +21,7 @@ function pause_or_unpause_game()
         with (Obj_pause_menu) instance_destroy();
 		with (Obj_Button_resume) instance_destroy();
 		with (Obj_Button_quit_to_menu) instance_destroy();
-		instance_create_layer(1862, 64, "HUD", Obj_Button_pause);
+		instance_create_layer(1728, 64, "HUD", Obj_Button_pause);
 
         global.paused = false;
     }

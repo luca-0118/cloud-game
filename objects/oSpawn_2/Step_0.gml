@@ -7,3 +7,10 @@ if (spawn_timer <= 0 && spawn_count < spawn_amount) {
 	spawn_count++;
 	spawn_timer = spawn_rate;
 }
+
+if (global.level = 0)
+{
+	Trivia2();
+	instance_deactivate_object(oSpawn_2);
+	global.level++;
+}

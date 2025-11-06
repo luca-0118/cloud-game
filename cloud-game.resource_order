@@ -38,6 +38,8 @@
     {"name":"Obj_Button_quit_to_menu","order":6,"path":"objects/Obj_Button_quit_to_menu/Obj_Button_quit_to_menu.yy",},
     {"name":"Obj_Button_replay","order":1,"path":"objects/Obj_Button_replay/Obj_Button_replay.yy",},
     {"name":"Obj_Button_resume","order":2,"path":"objects/Obj_Button_resume/Obj_Button_resume.yy",},
+    {"name":"Obj_explanation_controller","order":3,"path":"objects/Obj_explanation_controller/Obj_explanation_controller.yy",},
+    {"name":"Obj_explanationUI","order":2,"path":"objects/Obj_explanationUI/Obj_explanationUI.yy",},
     {"name":"Obj_game_controller","order":1,"path":"objects/Obj_game_controller/Obj_game_controller.yy",},
     {"name":"Obj_level_clear","order":3,"path":"objects/Obj_level_clear/Obj_level_clear.yy",},
     {"name":"Obj_right_popup","order":1,"path":"objects/Obj_right_popup/Obj_right_popup.yy",},

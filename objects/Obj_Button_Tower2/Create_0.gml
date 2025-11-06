@@ -1,12 +1,10 @@
 /// @description Tower2 Explanation Button
+event_inherited();
 
-text = "Button";
+tower_index = 1;
 
-text_color = c_white;
+is_selected = false;
 
-text_outline_color = c_white
-
-is_playing = false;
-
-anim_frame = 0;
-
+button_width = 120;
+button_height = 120;
+button_spacing = 40;

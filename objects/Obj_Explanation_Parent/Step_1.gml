@@ -36,12 +36,3 @@ else
 }
 
 	
-
-if (is_playing)
-{
-	anim_frame += 1;
-	
-	if (anim_frame >= sprite_get_number(sGif1)) {
-		is_playing = false;
-	}
-}

@@ -1,4 +1,3 @@
-/// @description Answer button
 draw_self();
 
 // Tekst centreren

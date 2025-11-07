@@ -60,6 +60,8 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Big_Tower.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Big_Tower.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Medium_Tower.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Medium_Tower.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Small_Tower.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Small_Tower.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTower1",
-    "path":"sprites/sTower1/sTower1.yy",
+    "name":"sToren_1",
+    "path":"sprites/sToren_1/sToren_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

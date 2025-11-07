@@ -1,5 +1,6 @@
 if (global.selected_tower != noone) {
     current_tower = global.towers[global.selected_tower];
+	current_video = global.videos[global.selected_video];
     
     // Update animation frame
     // if (!variable_instance_exists(self, "frame")) frame = 0;

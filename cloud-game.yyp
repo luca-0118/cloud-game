@@ -58,7 +58,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Big_Tower.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Big_Tower.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -71,6 +73,7 @@
     {"id":{"name":"Obj_Button_Enemy1","path":"objects/Obj_Button_Enemy1/Obj_Button_Enemy1.yy",},},
     {"id":{"name":"Obj_Button_explanation","path":"objects/Obj_Button_explanation/Obj_Button_explanation.yy",},},
     {"id":{"name":"Obj_Button_gotit","path":"objects/Obj_Button_gotit/Obj_Button_gotit.yy",},},
+    {"id":{"name":"Obj_Button_join","path":"objects/Obj_Button_join/Obj_Button_join.yy",},},
     {"id":{"name":"Obj_Button_menu","path":"objects/Obj_Button_menu/Obj_Button_menu.yy",},},
     {"id":{"name":"Obj_Button_multiplayer","path":"objects/Obj_Button_multiplayer/Obj_Button_multiplayer.yy",},},
     {"id":{"name":"Obj_Button_next_level","path":"objects/Obj_Button_next_level/Obj_Button_next_level.yy",},},

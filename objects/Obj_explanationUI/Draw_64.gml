@@ -21,9 +21,16 @@ if (current_tower != noone) {
     draw_text(panel_x1 + 450, panel_y1 + 570, "Speed: " + string(current_tower.speed));
 
     // Draw tower animation
-    draw_sprite(current_tower.sprite_explanation, floor(frame),
-        panel_x1 + 175,
-        panel_y1 + 50);
+	video_open(current_tower.video_explanation)
+	var data = video_draw();
+	var status = data[0];
+
+	if (status == 0)
+	{
+		var surface = data[1];
+
+		draw_surface(surface, panel_x1 + 175, panel_y1 + 50);
+	}
 }
 
 

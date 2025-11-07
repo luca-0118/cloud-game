@@ -1,19 +1,18 @@
-var game_hosting = false;
-var joined = false;
+global.game_hosting = false;
 var guest = false;
+global.joined = false;
 global.is_in_MP = false; // voor disable trivia
 global.type_buffer = noone;
+
 
 function host_game() {
 server_socket = network_create_server(network_socket_tcp, 6510, 4);
 if server_socket >= 0
     {
-	game_hosting = true;
+	global.game_hosting = true;
+	show_debug_message(global.game_hosting);
+	room_goto(Level_screen);
     }
-	else
-	{
-		//Connection error! Add failsafe codes here
-	}
 }
 
 function join_game() {
@@ -26,39 +25,42 @@ function join_game() {
 	else
 		{
 		guest = true;
-		//Connected!
+		
 		}
 }
 
-while (game_hosting = true){
-	while (joined = false){
-		var network_id = ds_map_find_value(async_load, "id");
+while (global.game_hosting) {
+	show_debug_message("hi");
+	var network_id = ds_map_find_value(async_load, "id");
+	while (global.joined = false){
+	}
+}
+	while (global.joined) {
 		if network_id == server_socket
 		{
 			var type = ds_map_find_value(async_load, "type");
 			switch(type)
 			{
-		case network_type_connect:
-            var sock = ds_map_find_value(async_load, "socket");
-            ds_list_add(socketlist, sock);
-            break;
-        case network_type_disconnect:
+		case network_type_disconnect:
             var sock = ds_map_find_value(async_load, "socket");
             ds_map_delete(socketlist, sock);
+			global.joined = false;
             break;
 		case network_type_data:
 			//network_id;
 			// to do
 			break;
-        }
-    }
+		}
 	}
 }
 
+
+//weghalen
 while (guest = true){
 	var network_id = ds_map_find_value(async_load, "id");
 	if network_id == client_socket
     {
+		show_debug_message("Hello")
     //We have a new packet from the server
     } 
 }
@@ -67,7 +69,7 @@ while (guest = true){
 // levens, aantal torens, wavecount
 
 //server naar client communicatie
-while (game_hosting = true){
+while (global.game_hosting = true){
 	while (global.type_buffer != noone) {
 		for (var i = 0; i < ds_list_size(socketlist); ++i;)
 		{
@@ -79,7 +81,7 @@ while (game_hosting = true){
 
 //client naar server communicatie
 while (global.is_in_MP){
-	while (game_hosting = false){
+	while (global.game_hosting = false){
 		while (global.type_buffer != noone) {
 			network_send_packet(client_socket, global.type_buffer, buffer_tell(global.type_buffer));
 		buffer_delete(global.type_buffer);
@@ -94,16 +96,24 @@ while (global.is_in_MP){
 	if server_socket == network_id
     {
     global.type_buffer = ds_map_find_value(async_load, "buffer"); 
-    var cmd_type = buffer_read(global.type_buffer, buffer_u16 );
-    var inst = ds_map_find_value(socket_list, sock );
+    var cmd_type = buffer_read(global.type_buffer, buffer_u16);
+	var str_data = buffer_read(global.type_buffer, buffer_string);
+    var inst = ds_map_find_value(socket_list, sock);
     switch (cmd_type)
         {
+		case 1:
+			// Level
+			room_goto(str_data);
         case 2:
 			//Tower placement
-			instance_create_depth(tdata[0], tdata[1], tdata[2], tdata[3]);
+			instance_create_depth(str_data[0], str_data[1], str_data[2], str_data[3]);
             break;
-        //etc...
         }
-    }
+    }	
+}
+
+
+function join(){
+	
 	
 }

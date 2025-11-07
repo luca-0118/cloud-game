@@ -6,24 +6,21 @@ global.towers[0] = {
     description: "Medium damage",
     attack: 200,
     speed: 1,
-    sprite_explanation: sGif1,
-    idle_sprite: sIdle1
+	video_explanation: "Big_Tower.mp4"
 };
 
 global.towers[1] = {
     name: "Big Tower",
-    description: "Highest damage",
+    description: "High damage",
     attack: 300,
     speed: 1,
-    sprite_explanation: sGif1,
-    idle_sprite: sIdle1
+    video_explanation: "Big_Tower.mp4"
 };
 
 global.towers[2] = {
     name: "Small tower",
-    description: "Lowest damage",
+    description: "Low damage",
     attack: 100,
     speed: 1,
-    sprite_explanation: sGif1,
-    idle_sprite: sIdle1
+	video_explanation: "Big_Tower.mp4"
 };

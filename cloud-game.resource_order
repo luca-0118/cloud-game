@@ -29,6 +29,7 @@
     {"name":"Obj_Button_debug","order":13,"path":"objects/Obj_Button_debug/Obj_Button_debug.yy",},
     {"name":"Obj_Button_explanation","order":8,"path":"objects/Obj_Button_explanation/Obj_Button_explanation.yy",},
     {"name":"Obj_Button_gotit","order":10,"path":"objects/Obj_Button_gotit/Obj_Button_gotit.yy",},
+    {"name":"Obj_Button_join","order":16,"path":"objects/Obj_Button_join/Obj_Button_join.yy",},
     {"name":"Obj_Button_menu","order":3,"path":"objects/Obj_Button_menu/Obj_Button_menu.yy",},
     {"name":"Obj_Button_multiplayer","order":15,"path":"objects/Obj_Button_multiplayer/Obj_Button_multiplayer.yy",},
     {"name":"Obj_Button_next_level","order":14,"path":"objects/Obj_Button_next_level/Obj_Button_next_level.yy",},

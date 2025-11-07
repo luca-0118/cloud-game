@@ -1,4 +1,2 @@
-draw_self();
-
 draw_set_color(c_red);
-draw_text(x + 10, y + 20, string(status));
+draw_text(x + 45, y + 20, string(status));

@@ -15,27 +15,28 @@ draw_rectangle(panel_x1, panel_y1, panel_x2, panel_y2, false);
 // Draw tower info if selected
 if (current_tower != noone) {
     draw_set_color(c_black);
-    draw_text(panel_x1 + 450, panel_y1 + 420, "Tower: " + current_tower.name);
-    draw_text(panel_x1 + 450, panel_y1 + 470, "Description: " + current_tower.description);
-    draw_text(panel_x1 + 450, panel_y1 + 520, "Attack: " + string(current_tower.attack));
-    draw_text(panel_x1 + 450, panel_y1 + 570, "Speed: " + string(current_tower.speed));
+    var tx = panel_x1 + 450;
+    var ty = panel_y1 + 420;
 
-    // Draw tower animation
-	
-	video_open(current_tower.video_explanation)
-	var data = video_draw();
-	var status = data[0];
+    draw_text(tx, ty, "Tower: " + string(current_tower.name));
+    draw_text(tx, ty + 50, "Description: " + string(current_tower.description));
+    draw_text(tx, ty + 100, "Attack: " + string(current_tower.attack));
+    draw_text(tx, ty + 150, "Speed: " + string(current_tower.speed));
 
-	if (status == 0)
-	{
-		var surface = data[1];
+    if (video_opened) {
+        var data = video_draw();
+        var status = data[0];
 
-		draw_surface(surface, panel_x1 + 175, panel_y1 + 50);
-	}
-	
-	if (current_video != current_tower){
-		video_close();
-	}
+        if (status == 0) {
+            var surface = data[1];
+            draw_surface(surface, panel_x1 + 175, panel_y1 + 50);
+        }
+        else if (status == 1) {
+            video_close();
+            video_open(current_tower.video_explanation);
+            video_draw(); 
+        }
+    }
 }
 
 

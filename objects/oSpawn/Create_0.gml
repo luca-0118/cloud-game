@@ -4,7 +4,7 @@ global.gamespeed = 1;
 //Laat deze difficulty spul zitten, want anders is er een error
 //Difficulty is nu 0 (easy) dus als je iets wilt aanpassen doe het voor nu alleen in TD_difficulty 0
 if (global.TD_difficulty == 0) {
-    global.spd = 1;
+    global.spd = 1000;
     global.enemyhp = 1;
 	global.playerhp = 200;
 	startcoins = 125

@@ -89,6 +89,11 @@
     {"name":"sMedium","order":1,"path":"sprites/sMedium/sMedium.yy",},
     {"name":"Sprite31","order":11,"path":"sprites/Sprite31/Sprite31.yy",},
     {"name":"Sprite37","order":12,"path":"sprites/Sprite37/Sprite37.yy",},
+    {"name":"Sprite41","order":1,"path":"sprites/Sprite41/Sprite41.yy",},
+    {"name":"Sprite42","order":2,"path":"sprites/Sprite42/Sprite42.yy",},
     {"name":"sReg_1","order":1,"path":"sprites/sReg_1/sReg_1.yy",},
+    {"name":"sToren_1","order":2,"path":"sprites/sToren_1/sToren_1.yy",},
+    {"name":"sToren_2","order":3,"path":"sprites/sToren_2/sToren_2.yy",},
+    {"name":"sToren_3","order":1,"path":"sprites/sToren_3/sToren_3.yy",},
   ],
 }

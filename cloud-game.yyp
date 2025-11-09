@@ -162,8 +162,6 @@
     {"id":{"name":"Pause","path":"scripts/Pause/Pause.yy",},},
     {"id":{"name":"Text","path":"scripts/Text/Text.yy",},},
     {"id":{"name":"Trivia","path":"scripts/Trivia/Trivia.yy",},},
-    {"id":{"name":"Snd_funny_slow","path":"sounds/Snd_funny_slow/Snd_funny_slow.yy",},},
-    {"id":{"name":"Snd_Halflifescream","path":"sounds/Snd_Halflifescream/Snd_Halflifescream.yy",},},
     {"id":{"name":"Map1","path":"sprites/Map1/Map1.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"sButton_Blue","path":"sprites/sButton_Blue/sButton_Blue.yy",},},

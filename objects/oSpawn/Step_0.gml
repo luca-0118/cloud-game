@@ -63,8 +63,18 @@ if (wave_active) {
 	}
 }
 
+	if (rounds = 50)
+	{
+	Level_clear();
+	}
+
+if (rounds = round_check[i])
+	{
+		Trivia();
+		i++;
+	}
+
 if (global.level == 0) {
 	Trivia();
-	instance_deactivate_object(oSpawn);
 	global.level++;
 }

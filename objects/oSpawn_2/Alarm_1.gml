@@ -4,11 +4,6 @@ if(instance_number(oEnemy) <= 0)
 	{
 	Level_clear();
 	}
-	if (rounds = round_check[i])
-	{
-		Trivia2();
-		i++;
-	}
 	else
 	{
 	spawn_count = 0;

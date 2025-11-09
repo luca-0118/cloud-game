@@ -1,4 +1,4 @@
-global.current_path = Path_level_1 //bruh
+global.current_path = Path_level_3 //bruh
 global.gamespeed = 1;
 
 //Laat deze difficulty spul zitten, want anders is er een error

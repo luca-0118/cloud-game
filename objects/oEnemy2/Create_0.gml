@@ -1,5 +1,5 @@
 spd = 0.7 * global.spd;
-hp = 200 * global.enemyhp;
+hp = 250 * global.enemyhp;
 dmg = 5;
 death_coins = 15;
 

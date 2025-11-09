@@ -57,6 +57,7 @@ if (wave_active) {
 
 		if (wave_done) {
 			current_wave++;
+			global.rounds++;
 			wave_active = false;
 		}
 	}

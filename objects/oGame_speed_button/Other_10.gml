@@ -4,4 +4,7 @@ if global.gamespeed == 1 {
 else if global.gamespeed == 2 {
 	global.gamespeed = 1;
 }
-scr_debug_message("gamespeed = " + string(global.gamespeed));
+
+if (global.debugmode == true) {
+	scr_debug_message("gamespeed = " + string(global.gamespeed));
+}

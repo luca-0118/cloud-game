@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oReg_1",
-  "eventList":[],
+  "%Name":"oHard_TD",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oReg_1",
+  "name":"oHard_TD",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Difficulty",
+    "path":"folders/Objects/Menu/Level_select/Difficulty.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sReg_1",
-    "path":"sprites/sReg_1/sReg_1.yy",
+    "name":"sHard",
+    "path":"sprites/sHard/sHard.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

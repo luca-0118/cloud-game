@@ -11,9 +11,9 @@
     {"name":"inst_41F8E76D","path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"inst_9C1D373","path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"inst_34D31031","path":"rooms/Main_Menu/Main_Menu.yy",},
-    {"name":"inst_7A34ED9D","path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"inst_74D18666","path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"inst_48836062","path":"rooms/Main_Menu/Main_Menu.yy",},
+    {"name":"inst_7A34ED9D","path":"rooms/Main_Menu/Main_Menu.yy",},
   ],
   "isDnd":false,
   "layers":[

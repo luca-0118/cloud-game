@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sReg",
-    "path":"sprites/sReg/sReg.yy",
+    "name":"sReg_1",
+    "path":"sprites/sReg_1/sReg_1.yy",
   },
   "spriteMaskId":null,
   "visible":false,

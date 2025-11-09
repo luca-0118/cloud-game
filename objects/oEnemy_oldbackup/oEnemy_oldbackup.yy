@@ -11,8 +11,8 @@
   "name":"oEnemy_oldbackup",
   "overriddenProperties":[],
   "parent":{
-    "name":"TD_Game",
-    "path":"folders/Objects/TD_Game.yy",
+    "name":"Archive",
+    "path":"folders/Objects/Archive.yy",
   },
   "parentObjectId":null,
   "persistent":false,

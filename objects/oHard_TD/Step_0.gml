@@ -6,7 +6,7 @@ var held = (hovered && mouse_check_button(mb_left));
 var released = (hovered && mouse_check_button_released(mb_left));
 
 if (released) {
-	global.selected_difficulty = button_dif_value;
+	global.TD_difficulty = button_dif_value;
 }
 
 if (held) {
@@ -17,7 +17,7 @@ if (held) {
 	image_xscale = 1;
 	image_yscale = 1;
 
-	if (global.selected_difficulty == button_dif_value) {
+	if (global.TD_difficulty == button_dif_value) {
 		image_index = 2;
 	} else {
 		image_index = 0;

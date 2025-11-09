@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oHard",
+  "%Name":"oLevel4",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oHard",
+  "name":"oLevel4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Archive/Buttons.yy",
+    "name":"Level_select",
+    "path":"folders/Objects/Menu/Level_select.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHard",
-    "path":"sprites/sHard/sHard.yy",
+    "name":"sLevel_4levelselecticon",
+    "path":"sprites/sLevel_4levelselecticon/sLevel_4levelselecticon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

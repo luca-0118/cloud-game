@@ -9,13 +9,16 @@ if (distance_traveled >= max_distance) {
     instance_destroy();
 }
 
-var target = instance_place(x, y, oEnemy);
-if (target != noone) {
-    target.hp -= 20;
-	
-    if (global.debugmode) {
-        scr_debug_message("shot enemy hp = " + string(target.hp));
-    }
+for (var i = 0; i < array_length(enemy_list); i++) {
+    var target = instance_place(x, y, enemy_list[i]);
+    if (target != noone) {
+        target.hp -= 20;
 
-    instance_destroy();
+        if (global.debugmode) {
+            scr_debug_message("shot enemy hp = " + string(target.hp));
+        }
+
+        instance_destroy();
+        break;
+    }
 }

@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oEasy",
+  "%Name":"oEasy_TD",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEasy",
+  "name":"oEasy_TD",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Archive/Buttons.yy",
+    "name":"Difficulty",
+    "path":"folders/Objects/Menu/Level_select/Difficulty.yy",
   },
   "parentObjectId":null,
   "persistent":false,

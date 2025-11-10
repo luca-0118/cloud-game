@@ -1,2 +1,2 @@
-Trivia_Unpause()
+Trivia_Unpause();
 

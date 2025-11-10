@@ -28,7 +28,7 @@ else {
     } else {
         var index = irandom(lengte - 1);
         global.index = index;
-        var q = global.trivia_questions[index];
+        global.q = global.trivia_questions[index];
 
         // bewaar index
         global.last_trivia_index = index;
@@ -38,14 +38,14 @@ else {
 }
 
 
-question_text = q[0];
-answers = q[1];
-correct_answer = q[2];
+question_text = global.q[0];
+answers = global.q[1];
+correct_answer = global.q[2];
 
 array_delete(global.trivia_questions, index, 0);
 
 // Startpositie voor knoppen, onder de vraag
-var start_y = center_y + 50;
+var start_y = center_y -50;
 
 // Maak knoppen aan
 for (var i = 0; i < array_length(answers); i++) {

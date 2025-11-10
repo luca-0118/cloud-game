@@ -1,1 +1,0 @@
-audio_play_sound(Snd_Halflifescream, 1, false);

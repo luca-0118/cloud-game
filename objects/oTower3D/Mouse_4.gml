@@ -1,4 +1,5 @@
 if(col == c_white){
+	audio_play_sound(Snd_OK, 1, false)
 	tdata = [mouse_x,mouse_y,-1,oTower3];
 	instance_destroy();
 	instance_create_depth(mouse_x,mouse_y,-1,oTower3);

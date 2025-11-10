@@ -1,7 +1,8 @@
 spd = 0.7 * global.spd;
-hp = 250 * global.enemyhp;
+maxhp = 250 * global.enemyhp;
+hp = maxhp
 dmg = 5;
-death_coins = 15;
+death_coins = 10;
 
 path_start(global.current_path,spd,0,1);
 

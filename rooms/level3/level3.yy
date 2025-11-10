@@ -288,6 +288,7 @@
     {"name":"inst_6E6A7DB7","path":"rooms/level3/level3.yy",},
     {"name":"inst_1E6BA714","path":"rooms/level3/level3.yy",},
     {"name":"inst_3EC2F511","path":"rooms/level3/level3.yy",},
+    {"name":"inst_576A96D4","path":"rooms/level3/level3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -573,6 +574,7 @@
         {"$GMRInstance":"v4","%Name":"inst_49DB5B3C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49DB5B3C","objectId":{"name":"oTower2C","path":"objects/oTower2C/oTower2C.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1795.0,"y":214.0,},
         {"$GMRInstance":"v4","%Name":"inst_6E6A7DB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E6A7DB7","objectId":{"name":"oTower3C","path":"objects/oTower3C/oTower3C.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1796.0,"y":316.0,},
         {"$GMRInstance":"v4","%Name":"inst_3EC2F511","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EC2F511","objectId":{"name":"Obj_game_controller","path":"objects/Obj_game_controller/Obj_game_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":789.0,"y":1047.0,},
+        {"$GMRInstance":"v4","%Name":"inst_576A96D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_576A96D4","objectId":{"name":"Obj_Button_pause","path":"objects/Obj_Button_pause/Obj_Button_pause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1625.0,"y":84.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Towerbord","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1E6BA714","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E6BA714","objectId":{"name":"oTowerbord","path":"objects/oTowerbord/oTowerbord.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":32.0,},

@@ -4,7 +4,8 @@ function Level_clear()
 		{
 			// Pause all instances
 			instance_deactivate_all(true);
-
+			instance_activate_object(Obj_level_clear);
+			
 			// Show trivia pop up
 			if (object_exists(Obj_level_clear))
 			{

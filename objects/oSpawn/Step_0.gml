@@ -1,9 +1,14 @@
 rounds = global.rounds;
 spawn_timer -= global.gamespeed;
 
-
 if (!wave_active) {
 	var prev_wave_done = true;
+	
+	if (r == round_check[i]) {
+		Trivia();
+		i++;
+		exit;
+	} 
 	if (current_wave > 0) {
 		var prev_wave_data = waves[current_wave - 1];
 		for (var j = 0; j < array_length(prev_wave_data); j++) {
@@ -22,7 +27,12 @@ if (!wave_active) {
 		spawn_timer = 0;
 		wave_active = true;
 	} else if (current_wave >= array_length(waves)) {
-		Level_clear();
+		if (!global.victory_triggered) {
+			global.victory_triggered = true;
+			audio_stop_all();
+			audio_play_sound(Snd_Victory, 1, true);
+			Level_clear();
+		}
 	}
 }
 
@@ -57,24 +67,9 @@ if (wave_active) {
 
 		if (wave_done) {
 			current_wave++;
+			r++;
 			global.rounds++;
 			wave_active = false;
 		}
 	}
-}
-
-	if (rounds = 50)
-	{
-	Level_clear();
-	}
-
-if (rounds = round_check[i])
-	{
-		Trivia();
-		i++;
-	}
-
-if (global.level == 0) {
-	Trivia();
-	global.level++;
 }

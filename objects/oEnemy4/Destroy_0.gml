@@ -1,1 +1,0 @@
-audio_play_sound(Snd_funny_slow, 1, false);
